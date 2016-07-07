@@ -18,7 +18,7 @@ frame整体适配:  CGRectMakeEx(5s屏幕下的位置大小)       CGRectMakeEx(
     [view1 addSubview:view2];
     view2.backgroundColor=[UIColor greenColor];
     
-    //4.同2
+    //4.如果涉及到相对位置时
     UIView *view3=[[UIView alloc]initWithFrame:CGRectMake(widthEx(10),view1.frame.size.height+view1.frame.origin.y, widthEx(40), heightEx(40))];
     [self.view addSubview:view3];
     view3.backgroundColor=[UIColor yellowColor];
