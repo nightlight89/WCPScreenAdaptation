@@ -1,6 +1,7 @@
 # WCPScreenAdaptation
 iOS屏幕适配 简单明了 使用方便
- //1.UI位置首先按照5s的样式进行设计
+
+//1.UI位置首先按照5s的样式进行设计
     /*高度适配:       heightEx(5s屏幕下的高度数值)
       宽度适配:       widthEx(5s屏幕下的宽度数值)
     frame整体适配:  CGRectMakeEx(5s屏幕下的位置大小)       CGRectMakeEx(10,10,40,40)=CGRectMake(widthEx(10),heightEx(10), widthEx(40), heightEx(40))效果一样，但切记不可叠加
