@@ -48,4 +48,7 @@ frame整体适配:  CGRectMakeEx(5s屏幕下的位置大小)       CGRectMakeEx(
     
     
     //6.如果一个.m文件内全是属于第三种情况，可以只用添加头文件 #import "WCPScreenAdaptation.h" 即可适配当前页面
+
+    //7.还有其他数值的适配时一样的道理（cell的高度等等。。。）
+    //cell.rowHeight=heightEx(60);
     
