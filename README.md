@@ -1,12 +1,12 @@
 # WCPScreenAdaptation
 iOS屏幕适配 简单明了 使用方便 仅支持4s以上和竖屏，不支持横屏！！
 
-1.UI位置首先按照5s的样式进行设计
+UI位置首先按照5s的样式进行设计
 高度适配:       heightEx(5s屏幕下的高度数值)
 宽度适配:       widthEx(5s屏幕下的宽度数值)
 frame整体适配:  CGRectMakeEx(5s屏幕下的位置大小)       CGRectMakeEx(10,10,40,40)=CGRectMake(widthEx(10),heightEx(10), widthEx(40), heightEx(40))效果一样，但切记不可叠加
 
-    
+    //1.添加头文件#import "WCPScreenAdaptationDetail.h"
     
     //2.如果frame涉及到导航栏高度64 标签栏高度49等iOS设备固定值时，仅适配其他数值
     UIView *view1=[[UIView alloc]initWithFrame:CGRectMake(0, 64, widthEx(200), heightEx(100))];

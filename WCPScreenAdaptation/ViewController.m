@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "WCPScreenAdaptationDetail.h"
-//#import "WCPScreenAdaptation.h"
+//#import "WCPScreenAdaptation.h"  //整个页面都适配时使用，见用法6.
 
 @interface ViewController ()
 
