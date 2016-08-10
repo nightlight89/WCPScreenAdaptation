@@ -21,10 +21,12 @@ static double autoSizeScaleX;
 static double autoSizeScaleY;
 
 //此方法在类加载的时候执行
-+ (void)load;
++ (void)startAdatation
 {
     //获取屏幕大小
     CGSize size = [[UIScreen mainScreen] bounds].size;
+    
+    NSLog(@"width=%f",size.width);
     
     //如果是iPhone5以上的
     if(size.height > 480){

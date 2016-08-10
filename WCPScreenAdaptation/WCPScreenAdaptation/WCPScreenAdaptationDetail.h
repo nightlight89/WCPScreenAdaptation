@@ -34,4 +34,6 @@ double heightEx(double height);
 
 double widthEx(double width);
 
++ (void)startAdatation;
+
 @end
